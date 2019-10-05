@@ -15,6 +15,12 @@
         * I have attached the postman json.
         * Most important, The configuration api,i have proviced are sample API from tutorial,You can use your services  from backend.
         
+* read DOC : http://docs.restql.b2w.io/#/restql/query-language
+    * In this document,You will find the answer to below questions
+        * How to provide headers like  authorization  to sub-sequent(underline) API call
+        * How to convert call from get to (POST,DELET,PUT...) to underline system(API) like "from" clause will lead to GET API call.
+        
+        
 * In this project,I have not used hard mapping of below services and pojo of response.
     * so you can add any service in backend can run the query on it.will give it back the response in json.
 * Follow things you should check now.
