@@ -33,6 +33,7 @@ public class TestController {
     public JsonNode getQueryResult(@RequestBody QueryInputBean inputQueryBean) throws IOException {
         RestQL restQL = new RestQL(config);
 //        QueryResponse response = restQL.executeQuery("from launches  only flight_number", 1);
+
         QueryResponse response = restQL.executeQuery(inputQueryBean.getQuery(), inputQueryBean.getArguments());
         return parseResult(response);
     }
