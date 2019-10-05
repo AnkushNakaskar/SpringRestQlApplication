@@ -1,0 +1,53 @@
+spring:
+  application:
+    name: content-clip
+      
+---
+spring:
+  profiles: test
+  cloud:
+    consul:
+      config:
+        enabled: false
+      enabled: false  
+---
+
+spring:
+  profiles: default
+  cloud:
+    consul:
+        host: 'localhost'
+        port: 8500
+        discovery:
+          healthCheckPath: '/api/clipService/actuator/health'
+        enabled: false
+
+---
+spring:
+  profiles: dev
+  cloud:
+    consul:
+        host: 'localhost'
+        port: 8500
+        discovery:
+          healthCheckPath: '/api/clipService/actuator/health'
+---
+spring:
+  profiles: qa
+  cloud:
+    consul:
+      host: '192.168.254.212'
+      port: 8500
+      discovery:
+        healthCheckPath: '/api/clipService/actuator/health'
+        
+---
+
+spring:
+  profiles: staging
+  cloud:
+    consul:
+        host: 'localhost'
+        port: 8500
+        discovery:
+          healthCheckPath: '/api/clipService/actuator/health'

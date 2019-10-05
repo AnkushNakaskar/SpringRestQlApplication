@@ -1,0 +1,20 @@
+project:
+  podId : <placeholder>
+  serviceMapping:
+    planets: "https://swapi.co/api/planets/:id"
+    launches: "https://api.spacexdata.com/v3/launches"
+endpoints:
+  prometheus:
+    enabled: true
+management:
+  security:
+    flag: false
+  health:
+    jms:
+      enabled: false
+    rabbit:
+      enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: health,prometheus,info,metrics,threaddump
