@@ -13,13 +13,48 @@
 					{
 						"key": "Content-Type",
 						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"query\":\"from launches  only flight_number\",\n\t\"arguments\" :\"1\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/test",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"test"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "springRestQL-With user management",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
 						"value": "application/json",
 						"type": "text"
 					}
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n\t\"query\":\"from launches  only flight_number\",\n\t\"arguments\" :\"1\"\n}",
+					"raw": "{\n\t\"query\":\"from usermanagement only name,address.flatNo,address.buildingName \",\n\t\"arguments\" :\"1\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"

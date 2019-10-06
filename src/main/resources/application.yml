@@ -3,6 +3,7 @@ project:
   serviceMapping:
     planets: "https://swapi.co/api/planets/:id"
     launches: "https://api.spacexdata.com/v3/launches"
+    usermanagement: "http://localhost:9090/test"
 endpoints:
   prometheus:
     enabled: true
