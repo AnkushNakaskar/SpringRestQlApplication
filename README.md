@@ -23,6 +23,8 @@
         
 * In this project,I have not used hard mapping of below services and pojo of response.
     * so you can add any service in backend can run the query on it.will give it back the response in json.
+* Use project : https://github.com/AnkushNakaskar/SpringRestQLSamplePRojectUsedInside
+    * For usermanagement queries and do more updates on this.
 * Follow things you should check now.
     * Authentications
     * CDN
