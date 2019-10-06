@@ -26,6 +26,7 @@
 * Use project : https://github.com/AnkushNakaskar/SpringRestQLSamplePRojectUsedInside
     * For usermanagement queries and do more updates on this.
 * Follow things you should check now.
+    * Pagination : https://github.com/B2W-BIT/restQL-http/blob/master/docs/restql/faq.md 
     * Authentications
     * CDN
     * Call below API with some input param and authentication with outh2(Token)

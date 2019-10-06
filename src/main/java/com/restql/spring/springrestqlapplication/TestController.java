@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import restql.core.RestQL;
 import restql.core.config.ClassConfigRepository;
+import restql.core.query.QueryOptions;
 import restql.core.response.QueryResponse;
 
 import java.io.IOException;
