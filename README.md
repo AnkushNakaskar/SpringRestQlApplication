@@ -26,7 +26,8 @@
 * Use project : https://github.com/AnkushNakaskar/SpringRestQLSamplePRojectUsedInside
     * For usermanagement queries and do more updates on this.
 * Follow things you should check now.
-    * Pagination : https://github.com/B2W-BIT/restQL-http/blob/master/docs/restql/faq.md 
+    * Pagination : https://github.com/B2W-BIT/restQL-http/blob/master/docs/restql/faq.md
+        * With Pagination ,We can use the "with" clause ,In this case, We can set page info like after and first param and use those in pagination in Under API. 
     * Authentications
     * CDN
     * Call below API with some input param and authentication with outh2(Token)
