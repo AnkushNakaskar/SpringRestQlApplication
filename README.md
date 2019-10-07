@@ -3,6 +3,7 @@
     * https://medium.com/clover-platform-blog/building-a-microservice-with-spring-boot-and-spring-cloud-1c8275d7d229
     * https://github.com/B2W-BIT/restQL-java
     * http://docs.restql.b2w.io/#/restql/getting-started
+    * https://github.com/B2W-BIT/restQL-manager
     
 * You can observed the below details in this project
     * check the configuration yml
