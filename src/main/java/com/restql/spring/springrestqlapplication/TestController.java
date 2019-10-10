@@ -15,6 +15,7 @@ import restql.core.response.QueryResponse;
 import java.io.IOException;
 import java.util.Iterator;
 import java.util.concurrent.atomic.AtomicReference;
+import java.util.function.Consumer;
 
 /**
  * @author ankushnakaskar
@@ -36,6 +37,10 @@ public class TestController {
 //        QueryResponse response = restQL.executeQuery("from launches  only flight_number", 1);
 
         QueryResponse response = restQL.executeQuery(inputQueryBean.getQuery(), inputQueryBean.getArguments());
+        final Consumer<QueryResponse> consumer =queryResponse -> {
+
+        };
+        restQL.executeQueryAsync(inputQueryBean.getQuery(),consumer ,inputQueryBean.getArguments());
         return parseResult(response);
     }
 

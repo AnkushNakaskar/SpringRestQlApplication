@@ -21,7 +21,7 @@
         * How to provide headers like  authorization  to sub-sequent(underline) API call
         * How to convert call from get to (POST,DELET,PUT...) to underline system(API) like "from" clause will lead to GET API call.
         
-        
+        * Follow the issue block for more inputs : https://github.com/B2W-BIT/restQL-http/issues/67
 * In this project,I have not used hard mapping of below services and pojo of response.
     * so you can add any service in backend can run the query on it.will give it back the response in json.
 * Use project : https://github.com/AnkushNakaskar/SpringRestQLSamplePRojectUsedInside
@@ -32,4 +32,5 @@
     * Authentications
     * CDN
     * Call below API with some input param and authentication with outh2(Token)
+    * Caching invadate /ttl in cache
              
